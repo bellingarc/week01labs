@@ -38,7 +38,7 @@ let bookshelf = [
 
 console.log(bookshelf[1].author)
 
-for (let i=0;i<bookshelf.length;i++){
+for (i=0;i<bookshelf.length;i++){
     const {title, author, alreadyRead} = bookshelf[i]
 if (alreadyRead){
     console.log(`You have already read ${title}`)
