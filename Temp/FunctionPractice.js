@@ -25,3 +25,5 @@ calculateDogAge(2, 3)
 calculateDogAge(7)
 
 calculateDogAge(true, 5)
+
+calculateDogAge() // Later: change function def to check input is given.
